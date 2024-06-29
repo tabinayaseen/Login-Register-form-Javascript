@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQVFcF03nskT0pA38ghIIOySYTxSEtS5dtQ&s);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3 7 10px rgba(145, 145, 145, 0.1);
+}
+
+.form {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+a {
+    color: #007bff;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h2{
+    color: rgb(44, 44, 44);
+    
+}
+.na{
+    font-size: 10px;
+    font-style: italic;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+    /* Additional responsive styles as needed */
+}
